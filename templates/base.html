@@ -16,6 +16,7 @@
 </head>
 <body class="d-flex h-100">
     <div class="d-flex flex-column flex-md-row min-vh-100 w-100">
+        {% include "includes/sidebar.html" %}
         <main class="flex-grow-1 w-100 p-3 pt-2 overflow-auto">
             {% block contenido %}
             {% endblock %}
